@@ -59,8 +59,12 @@ public class LoginErrMessage {
 			logger.log(LogStatus.FAIL, "Please enter your password");
 		}
 		
+		
+		
 		endTest(logger);
 		System.out.println("End");
+		
+		driver.close();
 	}
 	
 	public static void enterText(WebElement obj,String textValue)
